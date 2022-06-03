@@ -1,0 +1,8 @@
+<title> Try It Yourself </title> 
+<style type="text/css"> 
+div { height: 200px; line-height: 200px; color: white; text-align: center; padding-left: 20px; padding-right: 20px; } 
+</style>
+Tap me to change my color!
+<script> function changeColor(element) { var currentColor = element.style.backgroundColor; 
+if(currentColor == "red") { element.style.backgroundColor = "green"; } else { element.style.backgroundColor = "red"; } } 
+</script>
